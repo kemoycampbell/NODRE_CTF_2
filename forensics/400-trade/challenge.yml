@@ -1,0 +1,33 @@
+name: "Trace the Bitcoin"
+author: "Kemoy Campbell"
+category: Forensic
+
+description: "The kidnappers send money to each other for the kidnapping operation. One of our security operatives captured the details of a Bitcoin and now we need you to trace it to locate the kidnapper who sent it.
+The transfer hash for the exchange is 0xda3af9eaf27219296f7e4490e6b2a566d33ad681bd482f440c1460a7dbabcf82. Find the owner. There has to be a way to trace bitcoin transcations!!!"
+
+value: 400
+type: standard
+
+flags:
+  - NODRE{Crypt0_@ar3_trac3able_follow_the_money}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"
+
+hints:
+    - {
+        content: "Google how to trace all bitcoin exchanges",
+        cost: 10
+    }

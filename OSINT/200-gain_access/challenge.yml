@@ -1,0 +1,37 @@
+name: "Gain Access to the Accounts"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: The kidnappers were able to log in to Ritchie’s social media account based on his posts.Login the account where you found the first flag. Scan through the accounts for hints!
+
+value: 200
+type: standard
+
+flags:
+  - NODRE{N3v3r_use_w3@k_p@$$w0rd}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - osint
+  - account breach
+  - weak authentication
+
+state: visible
+version: "0.1"
+hints:
+    - {
+        content: "What is his username?",
+        cost: 10
+    }
+    - {
+        content: "What is his password?",
+        cost: 15
+    }

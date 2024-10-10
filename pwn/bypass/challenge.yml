@@ -1,0 +1,20 @@
+name: The doorway guard
+author: Kemoy Campbell
+category: PWN
+description: 'The script kiddies have their underground tunnel where they held secret
+  meetings. To be able to get underground, you need to say the password: scriptkiddies.
+  However, there is a bit of challenge as the program removed the word scriptkiddies...Can
+  you be crafty so that it scriptkiddies still goes in?'
+value: 400
+type: standard
+flags:
+- NODRE{f1lt3r_@r3_w@ck.Y0u_c4n_byp@$$_them}
+exposeService:
+  protocol: nc
+  internalPort: 12345
+  publicPort: 12345
+tags:
+- remote access
+state: visible
+version: '0.1'
+connection_info: nc localhost 12345

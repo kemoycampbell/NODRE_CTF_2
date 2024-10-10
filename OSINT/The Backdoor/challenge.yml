@@ -1,0 +1,19 @@
+name: "Around the back"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: "Jordan has been tasked with testing research a backdoor in some compression software/algorithm. Locate the backdoor that he is working on.
+Flag Format ATC{CVE}"
+
+value: 200
+type: standard
+
+flags:
+  - NODRE{CVE-2024-3094}
+
+
+tags:
+  - osint
+
+state: visible
+version: "0.1"

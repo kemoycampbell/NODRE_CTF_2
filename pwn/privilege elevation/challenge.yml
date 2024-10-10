@@ -1,0 +1,15 @@
+name: Leveling up
+author: Kemoy Campbell
+category: PWN
+description: "Currently the user matz in the shell access do not have superior priviliges(permissions). Login back
+into the shell access as matz then find a way to become superior and read the root's flag."
+value: 200
+type: standard
+flags:
+- NODRE{make_sure_Y0u_Also_$ecure_r00t}
+
+tags:
+- privilege elevation
+state: visible
+version: '0.1'
+

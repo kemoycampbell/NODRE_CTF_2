@@ -1,0 +1,26 @@
+name: "PCAP Analysis"
+author: "AUTHOR HERE"
+category: Forensic
+
+description: The kidnappers has been hacking RIT’s servers in attempt to extract information on Ritchie. What was the username and password that was successfully used to log into the system. 
+
+value: 300
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: hidden
+version: "0.1"

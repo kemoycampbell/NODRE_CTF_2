@@ -1,0 +1,24 @@
+name: "Morse Code"
+author: "Kemoy Campbell"
+category: Crytography
+
+description: "The kidnaper has level up their game. They realized that their first encryption was not secure at all... you should not be able to read this dot dot dot dot :-) "
+
+value: 200
+type: standard
+flags:
+- {
+  type: "static",
+  content: "NODRE{dot_dot_1t_is_just_morse_c0de}",
+  data: "case_insensitive"
+}
+
+# Optionals (Uncomment below)
+files: 
+  - encrypted.txt
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

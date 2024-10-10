@@ -1,0 +1,18 @@
+name: Command Center
+author: Kemoy Campbell
+category: web
+description: NSA agents discovered that the script kiddies are running their own command
+  center. Can you take over the command center and get the flag?
+value: 400
+type: standard
+flags:
+- NODRE{c0mm@nd_injection_@re_Aw3some!}
+exposeService:
+  protocol: http://
+  internalPort: 5000
+  publicPort: 7000
+tags:
+- injection
+state: visible
+version: '0.1'
+connection_info: http://localhost:7000

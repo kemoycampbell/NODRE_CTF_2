@@ -1,0 +1,20 @@
+name: "Undo"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: "Matz didnt properly secured his system's environment while testing the backdoor.
+This made his machine vulnerable and the kiddies were able to run an automate script that injected a backdoor
+credential so that they have access to his system. They shared the username and their password at https://www.reddit.com/r/randomctfposting/comments/1e1hszu/just_go_through_the_backdoor/"
+
+value: 300
+type: standard
+
+flags:
+  - NODRE{nothing_is_ever_truly_deleted_Y0u_Ju$t_n33d_t0_know_where_t0_l00k}
+
+
+tags:
+  - osint
+
+state: visible
+version: "0.1"

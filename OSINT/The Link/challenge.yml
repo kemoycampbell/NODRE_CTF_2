@@ -1,0 +1,19 @@
+name: "The link"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: "The Script kiddies decided to gathered some data(reconn) in order to launch their attack against NSA.
+One of the account that they found was someone named matz who intern at NSA. Can you find Matz account?"
+
+value: 100
+type: standard
+
+flags:
+  - NODRE{link3d1n_1s_a_gold_mine_f1eld}
+
+
+tags:
+  - osint
+
+state: visible
+version: "0.1"

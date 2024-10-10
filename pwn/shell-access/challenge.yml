@@ -1,0 +1,18 @@
+name: Remote Shell
+author: Kemoy Campbell
+category: PWN
+description: The kidz were able to log into Matz computer remotely with the credentials
+  that they get from OSINT 'UNDO'.
+value: 100
+type: standard
+flags:
+- NODRE{c0ngratulation_0n_your_first_$$h_PWN}
+exposeService:
+  protocol: ssh
+  internalPort: 2222
+  publicPort: 2222
+tags:
+- remote access
+state: visible
+version: '0.1'
+connection_info: ssh localhost -p 2222

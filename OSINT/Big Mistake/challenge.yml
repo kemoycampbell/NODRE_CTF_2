@@ -1,0 +1,19 @@
+name: "Big Mistake"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: "A user commented on the deleted Reddit post, https://www.reddit.com/r/randomctfposting/comments/1e1hszu/just_go_through_the_backdoor/...We think that he is also a member of the script kiddie group.
+Help us track down his identity. The flag format is ATC{FirstName_LastName}"
+
+value: 400
+type: standard
+
+flags:
+  - NODRE{Marcus_Mattheim}
+
+
+tags:
+  - osint
+
+state: visible
+version: "0.1"

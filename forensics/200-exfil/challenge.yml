@@ -1,0 +1,32 @@
+name: "EXFIL-Meta Data"
+author: "Kemoy Cambpell"
+category: Forensic
+
+description: "Ritchie took a picture during vacation. What is the camera model that was used to take this photo?
+Flag format: EYF{Camera Model Name}"
+value: 200
+type: standard
+
+flags:
+  - NODRE{moto g 5G - 2023}
+
+# Optionals (Uncomment below)
+files: 
+  - picture.jpg
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"
+
+hints:
+    - {
+        content: "Google for a tool call exiftool and upload your image",
+        cost: 10
+    }

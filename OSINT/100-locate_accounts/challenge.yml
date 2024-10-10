@@ -1,0 +1,37 @@
+name: "Locate Accounts Challenge"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: Ritchie is an avid fan on popular social media platforms where he frequently posts various updates. Locate his accounts! <br/> BTW, he frequently add EYF at the end of his accounts 
+
+value: 100
+type: standard
+
+flags:
+  - NODRE{s0cia1_m3dia_@re_s3archable}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - osint
+  - social media
+
+state: visible
+version: "0.1"
+
+hints:
+    - {
+        content: "What are the popular social media networks?",
+        cost: 10
+    }
+    - {
+        content: "How do you search for someone on social media?",
+        cost: 15
+    }

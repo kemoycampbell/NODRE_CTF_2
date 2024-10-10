@@ -1,0 +1,26 @@
+name: "NAME HERE"
+author: "AUTHOR HERE"
+category: CATEGORY_HERE
+
+description: DESCRIPTION_HERE
+
+value: 0
+type: standard
+
+flags:
+  - EYF{Flag_HERE}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

@@ -1,0 +1,27 @@
+name: "Unbreakable"
+author: "AUTHOR HERE"
+category: Crytography
+
+description: The kidnappers decided to build their own encryption system. They claimed that no one could break it. Our security team was able to obtain the source code of the encryption. Crack it!
+
+value: 500
+type: standard
+
+flags:
+  - NODRE{never_create_your_own_cryptography.Use_secure_and_proven_algorithms}
+
+# Optionals (Uncomment below)
+files: 
+ - encrypted.txt
+ - unbreakable.py
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"

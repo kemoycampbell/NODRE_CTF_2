@@ -1,0 +1,21 @@
+name: "Access Log - Part 2"
+author: "Kemoy Campbell"
+category: forensics
+
+description: "How many unique IP addresses are in the access log file?
+
+Flag format ATC{#of_failed_login_attempts}"
+
+value: 200
+type: standard
+
+flags:
+  - NODRE{22}
+files:
+  - access.log
+
+tags:
+  - access log
+
+state: visible
+version: "0.1"

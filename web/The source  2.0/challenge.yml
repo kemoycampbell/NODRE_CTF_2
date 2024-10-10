@@ -1,0 +1,20 @@
+name: The Source 2.0
+author: Kemoy Campbell
+category: web
+description: 'The kidz has upgraded their security after getting hacked by NSA...
+  can you get the username and the passsword?
+
+  Flag format ATC{username_password_videoID}'
+value: 200
+type: standard
+flags:
+- NODRE{kidz_kidz_3@sy_$1mple_SrunHo4Qvt4}
+exposeService:
+  protocol: http://
+  internalPort: 5000
+  publicPort: 5600
+tags:
+- script
+state: visible
+version: '0.1'
+connection_info: http://localhost:5600

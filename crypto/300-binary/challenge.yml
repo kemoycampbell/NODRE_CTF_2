@@ -1,0 +1,26 @@
+name: "Binary in Video"
+author: "Michael Berrios"
+category: Crytography
+
+description: Don't blink or you will miss the message! Flag Format EYF{message}
+
+value: 300
+type: standard
+
+flags:
+  - NODRE{Th1$_T1g3r_1s_1n_Dang3r}
+
+# Optionals (Uncomment below)
+files: 
+  - "Secret Message.gif"
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - crypto
+
+state: visible
+version: "0.1"

@@ -1,0 +1,31 @@
+name: "Ritchie in the News"
+author: "Tao Eng"
+category: OSINT
+
+description: On one occasion, Ritchie left the comfort of the tiger den to give an amazing surprise to a female student in Avon, NY. Locate the source of the news to find the name of the student who received the good news. The flag format will be EYF{Full_Name}
+
+value: 400
+type: standard
+
+flags:
+  - {
+        type: "static",
+        content: "NODRE{MacKenzie_Mislan}",
+        data: "case_insensitive",
+    }
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - osint
+  - news
+
+state: visible
+version: "0.1"

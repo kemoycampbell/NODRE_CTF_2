@@ -1,0 +1,19 @@
+name: The Meeting
+author: Kemoy Campbell
+category: forensics
+description: 'The kidz has been secretly communicating their meeting locations using pictures. The pictures only represent the city of where they are
+meeting but not the exact location. Can you find the location?
+
+The flag format ATC{city_latitude_longitude_restaurantName_restaurantName}'
+value: 300
+type: standard
+flags:
+  - NODRE{Albuquerque_35.159936_-106.679100_Gracia's_Kitchen}
+files:
+  - secret.jpeg
+
+tags:
+- metadata
+state: false
+version: '0.1'
+

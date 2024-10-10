@@ -1,0 +1,21 @@
+name: "Plain Sight"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: "The kidz sents an covert communication to a former NSA operative. We were able to intercept the image that they have
+that they are using to communicate. Can you find the messages?"
+
+value: 500
+type: standard
+
+flags:
+  - NODRE{exiftool_@re_very_useful_Images_may_contains_stegnography}
+files:
+ - horseshoesbend.png
+
+
+tags:
+  - osint
+
+state: visible
+version: "0.1"

@@ -1,0 +1,17 @@
+name: time will tell
+author: Kemoy Campbell
+category: PWN
+description: 'The kidz decided that they need 2 factor authentication for all their logins. So they came up
+with their own 4 digits pin number system. The kidz syncronized their watches so all can use the same pins.
+If you are not a kidz, you wont be able to get in! Or.... Can you?'
+value: 500
+type: standard
+files:
+  - secret_pin.py
+flags:
+- NODRE{Alw4ys_Us3_Cryptogr4phic4lly_Secur3_R4nd0m}
+
+tags:
+- timing attack
+state: visible
+version: '0.1'

@@ -1,0 +1,23 @@
+name: "Access Log"
+author: "Kemoy Campbell"
+category: forensics
+
+description: "NSA operative found an access log with all login attempts against matz computer. How many failed login attempts
+were recorded?
+
+Flag format ATC{#of_failed_login_attempts}"
+
+value: 100
+type: standard
+
+flags:
+  - NODRE{18}
+files:
+  - access.log
+
+
+tags:
+  - access log
+
+state: visible
+version: "0.1"

@@ -1,0 +1,36 @@
+name: "Message Hidden in the Image"
+author: "Tao Eng"
+category: Forensic
+
+description: The kidnappers have been discussing the image in plain sight with each other. They have figured out what the secret message in the picture is about. Can you find the message in the picture?
+
+value: 100
+type: standard
+
+flags:
+  - {
+    type: "static",
+    content: "NODRE{RITCHIE_1s_st@nding}",
+    data: "case_insensitive"
+  }
+
+# Optionals (Uncomment below)
+files: 
+  - SecretMessage_100.png
+
+# exposeService:
+#   protocol: https://www.edchart.com/free-online-converters/steganographic-decoder.php
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"
+
+hints:
+    - {
+        content: "Google for a tool called online stegnography",
+        cost: 10
+    }

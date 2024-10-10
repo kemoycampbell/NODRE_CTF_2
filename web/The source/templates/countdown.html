@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+    <script>
+        let countdown = 3; // Countdown time in seconds
+
+        function startCountdown() {
+            const countdownElement = document.getElementById('countdown');
+            const youtubeUrl = '{{ youtube_url }}';
+            const interval = setInterval(() => {
+                if (countdown > 0) {
+                    countdownElement.innerText = countdown;
+                    countdown--;
+                } else {
+                    clearInterval(interval);
+                    window.location.href = youtubeUrl;
+                }
+            }, 1000);
+        }
+
+        window.onload = startCountdown;
+    </script>
+</head>
+<body>
+    <h1>Incorrect username or password<br/>Redirecting in <span id="countdown">5</span> seconds...</h1>
+</body>
+</html>

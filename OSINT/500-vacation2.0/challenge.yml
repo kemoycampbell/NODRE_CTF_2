@@ -1,0 +1,38 @@
+name: "Ritchie Goes on Vacation 2.0"
+author: "Kemoy Campbell"
+category: OSINT
+
+description: The kidnappers also followed Ritchie to his second vacation location. Once you find the location, use https://what3words.com/ to pinpoint the exact spot. <br/> Flag format NODRE{word1.word2.word3}
+
+value: 500
+type: standard
+
+flags:
+  - NODRE{tenders.outreach.handwriting}
+  - NODRE{area.squeezed.oils}
+  - NODRE{alright.bashful.future}
+  - NODRE{shuffle.along.dumpy}
+  - NODRE{thumps.after.vouch}
+  - NODRE{thirsty.losses.slab}
+  - NODRE{grit.nerve.communal}
+  - NODRE{string.outlast.parkway}
+  - NODRE{without.sleeper.cactus}
+  - NODRE{cosmetic.acrobat.tutored}
+  - NODRE{delved.shunted.tenders}
+  - NODRE{coaster.pitch.paddle}
+
+# Optionals (Uncomment below)
+files: 
+   - ritchievacy.jpg
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - osint
+  - what3words
+
+state: visible
+version: "0.1"

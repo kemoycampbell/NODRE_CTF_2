@@ -1,0 +1,37 @@
+name: "Back in time"
+author: "AUTHOR HERE"
+category: Forensic
+
+description: "The kidnappers were communicating their plan on Reddit to kidnap Ritchie. However, the post was removed... Can you recover what was deleted from this url? 
+https://www.reddit.com/r/randomctfposting/comments/1dxv8at/down_with_the_tigers/"
+
+value: 500
+type: standard
+
+flags:
+  - NODRE{You_C@n_A1w@ys_use_Wayback_machine!}
+
+# Optionals (Uncomment below)
+# files: 
+  # - FILE_HERE.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - tag_here
+
+state: visible
+version: "0.1"
+
+hints:
+    - {
+        content: "Maybe google back in time web???",
+        cost: 10
+    }
+    - {
+        content: "What is the reddit link? can you copy it and put it in the tool?",
+        cost: 15
+    }

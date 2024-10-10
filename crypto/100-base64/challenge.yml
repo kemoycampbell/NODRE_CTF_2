@@ -1,0 +1,27 @@
+name: "The Base"
+author: "Tao Eng"
+category: Crytography
+
+description: The kidnappers have been communicating using some encryptions. They swore that no one would be able to break the cryptography. Can you crack this and read their message? 
+
+value: 100
+type: standard
+
+flags:
+  - NODRE{@lways_use_S3cure_encryption}
+
+# Optionals (Uncomment below)
+files: 
+  - TheBase.txt
+
+# exposeService:
+#   protocol: http://
+#   internalPort: 80
+#   publicPort: ####
+
+tags:
+  - encryptions
+  - crypto
+
+state: visible
+version: "0.1"

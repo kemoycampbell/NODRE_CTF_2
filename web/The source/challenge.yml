@@ -1,0 +1,18 @@
+name: The Source
+author: Kemoy Campbell
+category: web
+description: The kidz are using this site to share pictures of inside the NSA...Can
+  check the source and hack your way in?
+value: 100
+type: standard
+flags:
+- NODRE{N3v3r_put_username_and_password_html_source_c0d3}
+exposeService:
+  protocol: http://
+  internalPort: 5000
+  publicPort: 5500
+tags:
+- source code
+state: visible
+version: '0.1'
+connection_info: http://localhost:5500
